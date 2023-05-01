@@ -1,0 +1,558 @@
+.Background {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 559px;
+  height: 401px;
+  left: 361px;
+  top: 166px;
+
+  background: #D9D9D9;
+  border: 3px solid #000000;
+}
+
+.Frame1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  
+  position: absolute;
+  left: 30px;
+  top: 18px;
+}
+
+.Rectangle1 {
+  box-sizing: border-box;
+  width: 500px;
+  height: 18px;
+
+  background: #FBF21E;
+  border: 1px solid #000000;
+  border-radius: 50px 50px 0px 0px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0; 
+}
+
+.Rectangle2 {
+  box-sizing: border-box;
+
+  width: 500px;
+  height: 18px;
+
+  background: #0400D6;
+  border: 1px solid #000000;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.Rectangle3 {
+  box-sizing: border-box;
+
+  width: 500px;
+  height: 18px;
+  
+  background: #C00606;
+  border: 1px solid #000000;
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.Rectangle4 {
+  box-sizing: border-box;
+
+  width: 500px;
+  height: 18px;
+
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 0px 0px 50px 50px;
+
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+#RBV-label {
+  position: absolute;
+  width: 500px;
+  height: 15px;
+  left: 10px;
+  top: 13px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.6em;
+
+  color: #FFFDFD;
+}
+
+#CDI-label {
+  position: absolute;
+  width: 500px;
+  height: 15px;
+  left: 120px;
+  top: 48px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.6em;
+
+  color: #000000;
+}
+
+.Cedula {
+  position: absolute;
+  width: 111px;
+  height: 19px;
+  left: 210px;
+  top: 70px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;
+
+}
+
+.MM {
+  position: absolute;
+  left: 88%;
+  right: 0%;
+  top: 0%;
+  bottom: 45%;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.Fabricio {
+  position: absolute;
+  left: 85%;
+  right: 0%;
+  top: 2%;
+  bottom: 33%;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 15px;
+
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;
+
+}
+
+.Director {
+  position: absolute;
+  left: 91%;
+  right: 0%;
+  top: 10%;
+  bottom: 33%;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 15px;
+
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;
+
+}
+
+.Apellidos {
+  position: absolute;
+  left: 2%;
+  right: 0%;
+  top: 0%;
+  bottom: 35%;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;
+}
+
+.Nombres {
+  position: absolute;
+  left: 2%;
+  right: 0%;
+  top: 0%;
+  bottom: 20%;
+  
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;
+
+}
+
+.Fabrizio {
+  position: absolute;
+  left: 15%;
+  right: 0%;
+  top: 0%;
+  bottom: 20%;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;
+
+}
+
+.Spiotta {
+
+  position: absolute;
+  left: 15%;
+  right: 0%;
+  top: 0%;
+  bottom: 35%;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;
+
+}
+
+.Escudo {
+
+  height: 369px;
+  width: 374px;
+  left: 430px;
+  top: 208px;
+  border-radius: 0px;
+
+
+  position: absolute;
+  left: 15%;
+  right: 0%;
+  top: 12%;
+  bottom: 0%;
+  
+}
+
+.F-nacimiento{
+
+  position: absolute;
+  left: 32%;
+  right: 0%;
+  top: 40%;
+  bottom: 0;
+  
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;
+
+}
+
+.F-expedicion{
+
+  position: absolute;
+  left: 32%;
+  right: 0%;
+  top: 75%;
+  bottom: 0;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+
+}
+
+.Edo-civil {
+
+  position: absolute;
+  left: 56%;
+  right: 0%;
+  top: 40%;
+  bottom: 0;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;
+}
+
+.F-vencimiento {
+
+  position: absolute;
+  left: 52%;
+  right: 0%;
+  top: 75%;
+  bottom: 0;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;
+}
+
+.Nacimiento {
+
+  position: absolute;
+  left: 31%;
+  right: 0%;
+  top: 33%;
+  bottom: 0;
+
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;
+
+}
+
+.Soltero {
+
+  position: absolute;
+  left: 52%;
+  right: 0%;
+  top: 34%;
+  bottom: 0;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;
+
+}
+
+.Vencimiento {
+
+  position: absolute;
+  left: 54%;
+  right: 0%;
+  top: 68%;
+  bottom: 0;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+
+
+}
+
+.Expedicion {
+
+  position: absolute;
+  left: 31%;
+  right: 0%;
+  top: 68%;
+  bottom: 0;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000; 
+}
+
+.Venezolano {
+
+  position: absolute;
+  left: 31%;
+  right: 0%;
+  top: 90%;
+  bottom: 0;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 34px;
+
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;
+}
+
+.FirmaMia {
+  position: absolute;
+  left: 2%;
+  right: 0%;
+  top: 43%;
+  bottom: 0%;
+}
+
+.Huella {
+  position: absolute;
+  width: 139px;
+  height: 159px;
+  left: 10px;
+  top: 230px;
+}
+
+.FirmaTitular {
+  position: absolute;
+  left: 2%;
+  right: 0%;
+  top: 10%;
+  bottom: 0%;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 10px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;
+
+}
+
+.Yo{
+  position: absolute;
+  width: 170px;
+  height: 229px;
+  left: 383px;
+  top: 166px;
+}
+
+.FirmaFotoDirector{
+
+  position: absolute;
+  width: 65px;
+  height: 63px;
+  left: 400px;
+  top: 95px;
+  
+
+}
+
+
